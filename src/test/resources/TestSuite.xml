@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sorting Test" verbose="1">
+
+    <test name="Onliner Sorting Test" preserve-order="true">
+        <parameter name="mark" value="Samsung"/>
+        <parameter name="date" value="2013"/>
+        <parameter name="price" value="10000000"/>
+        <parameter name="diagonalFrom" value="37"/>
+        <parameter name="diagonalTo" value="42"/>
+        <classes>
+            <class name="onliner.tests.ParamSortingTest"/>
+        </classes>
+    </test>
+</suite>

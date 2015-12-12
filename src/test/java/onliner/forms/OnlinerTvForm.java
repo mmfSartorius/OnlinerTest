@@ -13,8 +13,7 @@ public class OnlinerTvForm extends BaseForm {
     Label lblDiagonal = new Label(By.xpath("//td[contains(text(), 'Диагональ')]/../td[2]/span"));
 
     public OnlinerTvForm() {
-        super(By.xpath("//img[@id='device-header-image']"), "Tv");
-        logger.info("OnlinerTvForm");
+        super(By.id("device-header-image"), "Tv");
     }
 
     /**

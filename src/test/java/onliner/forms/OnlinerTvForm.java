@@ -14,6 +14,7 @@ public class OnlinerTvForm extends BaseForm {
 
     public OnlinerTvForm() {
         super(By.xpath("//img[@id='device-header-image']"), "Tv");
+        logger.info("OnlinerTvForm");
     }
 
     /**

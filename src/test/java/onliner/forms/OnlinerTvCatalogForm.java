@@ -111,7 +111,6 @@ public class OnlinerTvCatalogForm extends BaseForm {
             if (temp.isPresent()) {
                 lblItemsList.add(temp);
             }
-            logger.info("Size of List " + Integer.toString(lblItemsList.size()));
         }
 
         for (Label temp : lblItemsList) {
